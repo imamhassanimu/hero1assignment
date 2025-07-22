@@ -1,0 +1,132 @@
+/* inter font style */
+
+.inter-bn-h {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+/* releway font style */
+
+.raleway-bn-h-b {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+.header{
+    background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 698px;
+    background-size: cover;
+}
+
+/* banner head styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px
+    /* margin-top: 51.5px; */
+}
+.Ban-logo{
+    color: rgba(78, 71, 255, 1);
+    font-size: 34px;
+}
+nav a{
+    display: flex;
+    text-decoration: none;
+    padding: 12px 36px;
+}
+nav button{
+    background-color: rgba(78, 71, 255, 1);
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn-color{
+    background-color: rgba(78, 71, 255, 1);
+    padding: 12px 36px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+.fff-color{
+    color: #FFFFFF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+}
+.ff-color{
+    color: #FFFFFF;
+}
+.hd-tex-cool{
+    font-size: 65px;
+    font-weight: bold;
+    margin: 261px 267.5px 285px 267.5px;
+}
+header div{
+    text-align: center;
+    /* margin: 309px 267.5px 237px 267.5px; */
+}
+
+/* action header section  */
+/* header section div1 style*/
+.main{
+    margin: 116px 159px 0 141px;
+}
+.sec-div1-style{
+    display: flex;
+    justify-content: space-between;
+}
+.section-div1{
+    max-width: 517px;
+    text-align: left;
+}
+.bn-action-title{
+    font-size: 42px;
+}
+.bn-cotent{
+    font-size: 24px;
+}
+.action-cont-h2{
+    color: rgba(37, 36, 50, 1);
+}
+.action-cont-color{
+    color: rgba(37, 36, 50, 0.5);
+}
+.banner-prof-pic{
+    max-width: 403px;
+    border-radius: 48px;
+}
+/* action user section */
+.user-sec{
+    justify-items: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 147px;
+    border-radius: 24px;
+    
+}
+.mid-sec-title{
+    font-size: 38px;
+    color: #252432;
+}
+.secondary-bg{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 135px 147px 50px 147px; */
+    /* gap: 158px; */
+    width: 856px;
+    height: 206px;
+    
+}
+.active-user{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+}
+.des-text{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
