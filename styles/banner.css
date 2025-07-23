@@ -135,3 +135,50 @@ header div{
     margin: 0;
     padding: 0;
 }
+/* user review section */
+.review-sec{
+    display: flex;
+    /* justify-content: space-around; */
+    max-width: 1150px;
+    align-items: center;
+    gap: 50px;
+
+}
+.rev-head{
+    text-align: center;
+    font-size: 42px;
+    /* font-weight: bold; */
+    color: #252432;
+}
+.rev-star{
+    display: flex;
+}
+.rev-title{
+    font-size: 24px;
+    color: rgba(30, 30, 30, 1);
+}
+.rev-description{
+    font-size: 16px;
+    color: rgba(30, 30, 30, 1);
+}
+.rev-pic-info{
+    display: flex;
+}
+.rev-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.rev-info{
+    flex-direction: column;
+    /* margin: 0; */
+}
+.rev-name{
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1)
+
+}
+.rev-date{
+    font-size: 16PX;
+    color: rgba(179, 179, 179, 1);
+}
