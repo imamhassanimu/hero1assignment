@@ -203,18 +203,29 @@ header div{
 /* focus section */
 .bg-focus{
     background-color: rgba(255, 255, 255, 1);
-    max-width: 1150px;
-    margin: 137px auto;
+    max-width: 1140px;
+    margin: 137px auto 0 auto;
+    padding: 71px 0px;
     text-align: center;
+    border-radius: 14px;
+    
+}
+.foc-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .foc-title{
     font-size: 50px;
     color: rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
     
 }
 .foc-des{
     font-size: 16px;
     color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
 }
 .foc-btn{
     font-size: 16px;
@@ -224,4 +235,88 @@ header div{
     height: 48px;
     border-radius: 10px;
     background-color: rgba(78, 71, 255, 1);
+    margin-bottom: 20px;
+}
+.foc-pic{
+    max-width: 840px;
+    border-radius: 48px;
+}
+
+
+/* info section */
+/* Main Section Styling */
+.contact-sec {
+  background-color: #f5f7ff; /* light bluish */
+  padding: 80px 20px;
+}
+
+/* Main container (1140px width & horizontal layout) */
+.contact-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Left section: Title */
+.contact-left {
+  flex: 1;
+  min-width: 300px;
+  padding-right: 20px;
+}
+
+.contact-heading {
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+  line-height: 1.2;
+}
+
+/* Right section: Form */
+.contact-right {
+  flex: 1;
+  min-width: 300px;
+  padding-left: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input, Textarea styling */
+.contact-form input,
+.contact-form textarea {
+  padding: 14px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  resize: vertical;
+}
+
+.contact-form label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Button styling */
+.contact-btn {
+  padding: 12px;
+  background-color: #4e47ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #372dff;
 }
